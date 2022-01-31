@@ -3,9 +3,6 @@ package pl.mateuszstefanski.silkroadnextgen.dto;
 import lombok.Data;
 import pl.mateuszstefanski.silkroadnextgen.model.DrugForm;
 
-import javax.persistence.Column;
-import javax.persistence.EnumType;
-import javax.persistence.Enumerated;
 import javax.validation.constraints.Digits;
 import java.math.BigDecimal;
 
@@ -18,7 +15,6 @@ public class DrugOfferDto {
 
     private DrugForm drugForm;
 
-    private Double drugWeightOrQuantity;
 
     @Digits(integer = 10, fraction = 2)
     private BigDecimal price;

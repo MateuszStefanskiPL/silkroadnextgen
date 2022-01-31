@@ -27,9 +27,6 @@ public class DrugOffer {
     @Enumerated(EnumType.STRING)
     private DrugForm drugForm;
 
-    @Column(name = "weight/quantity")
-    private Double drugWeightOrQuantity;
-
     @Column(name = "price")
     private BigDecimal pricePerGramOrOnePiece;
 
