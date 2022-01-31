@@ -5,5 +5,5 @@ import org.springframework.stereotype.Repository;
 import pl.mateuszstefanski.silkroadnextgen.model.DrugOffer;
 
 @Repository
-public interface DrugOfferRepository extends JpaRepository<DrugOffer, Long> {
+public interface DrugOffersRepository extends JpaRepository<DrugOffer, Long> {
 }
