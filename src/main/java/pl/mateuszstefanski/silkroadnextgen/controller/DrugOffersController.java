@@ -1,6 +1,7 @@
 package pl.mateuszstefanski.silkroadnextgen.controller;
 
 
+import lombok.AllArgsConstructor;
 import lombok.RequiredArgsConstructor;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -12,8 +13,9 @@ import pl.mateuszstefanski.silkroadnextgen.service.DrugOffersService;
 import java.util.List;
 
 @RestController
+@AllArgsConstructor
 @RequiredArgsConstructor
-@RequestMapping("/drugffers")
+@RequestMapping("/drugoffers")
 public class DrugOffersController {
 
     private DrugOffersService drugOffersService;

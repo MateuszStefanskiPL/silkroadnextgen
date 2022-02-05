@@ -15,7 +15,7 @@ import pl.mateuszstefanski.silkroadnextgen.repository.UsersRepository;
 import java.math.BigDecimal;
 import java.util.Arrays;
 
-@RequiredArgsConstructor(onConstructor = @__(@Autowired))
+@RequiredArgsConstructor
 @SpringBootApplication
 public class SilkroadnextgenApplication implements CommandLineRunner {
 
@@ -25,6 +25,8 @@ public class SilkroadnextgenApplication implements CommandLineRunner {
 
     public static void main(String[] args) {
         SpringApplication.run(SilkroadnextgenApplication.class, args);
+
+
     }
 
     @Override

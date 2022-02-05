@@ -14,8 +14,7 @@ import java.math.BigDecimal;
 public class DrugOffer {
 
     @Id
-    @Access(AccessType.PROPERTY)
-    @GeneratedValue
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "offer_id")
     private Long drugOfferId;
 

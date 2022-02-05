@@ -21,6 +21,6 @@ public class User {
     private String password;
 
     @OneToMany
-    @JoinColumn(name = "offer_id")
     private List<DrugOffer> offers;
+
 }
